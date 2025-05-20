@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: client.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/client-bedrock.py",
+      "args": [
+        "../weather/weather.py"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
